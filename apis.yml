@@ -1,8 +1,26 @@
 aid: grey-wolf-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grey-wolf-therapeutics.png
 name: Grey Wolf Therapeutics
-description: Grey Wolf Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Grey Wolf Therapeutics (Greywolf Therapeutics) is a clinical-stage biotechnology company
+  developing a new therapeutic class of immunotherapies through antigen modulation, aimed at treating
+  people living with cancers and autoimmune disorders. Its approach modulates antigen presentation on
+  cell surfaces so T cells can correctly recognize and target diseased cells, and it is pioneering
+  modulation of Signal 1 in the T cell activation cascade. Lead assets include GRWD5769, a first-in-class
+  oral ERAP1 inhibitor for oncology in Phase 1/2 trials, and GRWD0715, an autoimmunity-focused asset also
+  in Phase 1/2. Backed by Canaan Partners, the company was added to the API Evangelist network as a
+  venture-portfolio company profile. It is a corporate/scientific organization and publishes no public
+  developer API, OpenAPI, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/grey-wolf-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Immuno-oncology
+- Immunotherapy
+- Antigen Modulation
+- ERAP1
+- Autoimmune
+- Oncology
+- Clinical Stage
 apis: []
+common:
+- type: DomainSecurity
+  url: security/grey-wolf-therapeutics-domain-security.yml
+- type: Website
+  url: https://greywolftherapeutics.com/
+- type: Blog
+  url: https://greywolftherapeutics.com/latest-news
+- type: Support
+  url: https://greywolftherapeutics.com/contact-us
+- type: PrivacyPolicy
+  url: https://greywolftherapeutics.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
